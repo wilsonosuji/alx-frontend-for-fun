@@ -1,8 +1,10 @@
-body {
-    color: #3d3d3d;
+/* Nested hover
+change button color on hover*/
 
-    > .red {
-        color: #FF0000; 
+button {
+    color: #FF0000;
+
+    &:hover {
+        color: #00FF00;
     }
-    
 }
